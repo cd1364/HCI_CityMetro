@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityMetro</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div>
+            <img src="CItyMetro.png" style="width: 80px; height: 80px" class="logoch">
+        <!-- <img src="profile.png" alt="profile" style="width: 50px;height: 50px;padding-top: 50px;padding-right:50px" align:right> -->
+            <!-- <h1 class="logo">CityMetro</h1> -->
+        </div>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#info">Local Info</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="ctn1"><a href="file:///C:/Users/Chaitanya/OneDrive/Desktop/City-Metro/LOGIN/login.html">Login/SignUp</a></li>
+        </ul>
+        <img src="menu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Enjoy the Ride!!!</h2>
+            <div class="line"></div>
+            <h1>Beautiful Experience</h1>
+            <!-- <a href="#" class="ctn">Learn More</a> -->
+        </div>
+    </header>
+
+    <!-- Events -->
+
+<section id="news" class="events">
+    <div class="title">
+        <h1>News</h1>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="news3.jpeg" alt="">
+            <h4>Good news for Pune</h4>
+            <p>Metro Extension from Nigadi tp Katraj to proceed soon.</p>
+            <a href="https://www.timesnownews.com/pune/good-news-for-pune-metro-extension-from-nigdi-to-katraj-to-proceed-soon-article-103917319" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+            <img src="news4.jpeg" alt="">
+            <h4>Mumbai metro</h4>
+            <p>Mumbai metro extends rail services past midnight for Navratri with a 15 minute headway between trains.</p>
+            <a href="https://www.livemint.com/news/mumbai-metro-extends-rail-services-past-midnight-for-navratri-check-train-date-time-and-other-details-here-11697347621350.html" class="ctn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section id="explore" class="explore">
+    <div class="explore-content">
+        <h1>EXPLORE <br> THE METRO ROUTES</h1>
+        <div class="line"></div>
+    </div>
+    <div class="col">
+        <img src="map.jpeg" alt="" class="mapp">
+        <a href="https://www.punemetrorail.org/route-map?lang=en-US" class="ctn">Learn More</a>
+
+    </div>
+
+
+    </section>
+
+    <section id="info" class="local-info">
+        <div class="row">
+            <div class="col">
+                <h1>Local Info</h1>
+                <div class="line"></div>
+                <p>The Pune Municipal Corporation faces an uphill task to complete its 24x7 equitable water supply project the deadline for which is March 2024, although civic officials have exhibited confidence about delivering on time even when only 41 out of 141 water zones are ready currently.</p>
+                <a href="https://timesofindia.indiatimes.com/city/pune/pune-municipal-corporation-vows-141-water-zones-will-be-ready-by-march-24/articleshow/104432956.cms" class="ctn">Learn More</a>
+
+            </div>
+            <div class="col">
+                <div class="image-gallary">
+                    <img src="info.jpeg" alt="">
+                    <img src="bg.jpeg" alt="">
+                    <!-- <img src="puneMetro.jpg" alt=""> -->
+                    <!-- <img src="info.jpeg" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="footer">
+        <h1>About Us</h1>
+        <h3>Project Members</h3>
+        <p>
+            35015-Chaitanya Daphal <br>
+            35016-Gokul Deore <br>
+            35018-Sawani Dashpande <br>
+            35019-Adesh Devkar
+        </p>
+        <p>Prgressive Education Society's Modern College of Engineering, Pune-05 | Phone No. : 9786764789 | Email: Metro.pune@gmail.com</p>
+    </section>
+    <!-- <img src="puneMetro.jpg" alt=""> -->
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

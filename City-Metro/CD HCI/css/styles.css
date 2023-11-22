@@ -1,0 +1,155 @@
+
+body {
+    background-color: rgb(213, 213, 213);
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  .topnav{
+    background-color: rgb(227, 11, 92);
+    height: 150px;
+    border-radius: 25px;
+
+  }
+
+  .topnav a {
+    float: right;
+    color: #000000;
+    text-align: right;
+    padding: 60px 70px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  /* from to box */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+    width : 200px;
+    height: 112px;
+    border-radius: 100px;
+    border: 2px solid #870000;
+
+
+  }
+
+  /* results box */
+  .flex-container-details{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    border-radius: 25px;
+  }
+
+  .flex-container-details>div{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  /* results box */
+  .flex-container-details2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    border-radius: 25px;
+  }
+
+  .flex-container-details2>div{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  /*button*/
+  form {
+    width: 300px;
+    margin: 0 0;
+    text-align: center;
+    padding-top: auto;
+  }
+
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .value-button:hover {
+    cursor: pointer;
+  }
+
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+
